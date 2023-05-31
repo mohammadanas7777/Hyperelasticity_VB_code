@@ -16,7 +16,7 @@ Let us consider a case with "no noise" (without noise) conditions such that the 
 
 **Step 3: Estimate the material model using the data**
 
-_Open the 'main_new.m' file enter material as 'NeoHookean_J2' and noiselevel as 'no' and then run the fill will give the estimated material model for the data set we have used i.e. NeoHookean material model._
+_Open the 'main_new_2.m' file enter material as 'NeoHookean_J2' and noiselevel as 'no' and then run the fill will give the estimated material model for the data set we have used i.e. NeoHookean material model._
 
 Step 3 can be used for material model estimation using low and high noise conditions for NeoHookean model. Just change noiselevel as 'low' or 'high' respectively, in the 'main_new.m' file.
 
