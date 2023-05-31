@@ -1,7 +1,7 @@
 # Hyperelasticity_code
 This project is based on the topic of **"Hyperelastic material model discovery"** using reaction force and displacement data. For this project we have used FEniCS module to generate the data set for two different benchmark hyperelastic material model namely _NeoHookean_ and _Isihara_ models using a 2-D geometry of a plate with bi-axial displacement boundary conditions. After generating the data we can add noise to the displacement data using a Normal distribution with standard deviation of '1e-4 for low noise' and '1e-3 for high noise', and then denoising the data using Kernel Ridge Regression (KRR). Using the six data sets (3 cases each i.e. no noise, low noise and high noise level for two benchmark models) we can train our code to predict actual material model used to generate the data in the first place using the Variational Bayesian (VB) algorithm and then compare the time taken and predicted material models by VB and MCMC (Markov Chain Monte Carlo) algorithms. Below are the steps to follow:
 
-Let us consider a benchmark material model named as NeoHookean (NH) material model for illustration-
+Let us consider a benchmark material model named as NeoHookean material model for illustration-
 
 **Step 1: Generate the data using the file named as 'NeoHookean_J2.py' present in 'data_generation' folder.**
 
