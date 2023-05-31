@@ -12,7 +12,7 @@ _This will generate a data set which contain reaction force (at every sides of t
 
 _This will generate the denoised data in which first noise is added to displacement data and then denoised using KRR which then saved to the same file where the actual displacement data is present for each loadstep._
 
-Now let us consider that we are using "no noise" conditions such that the actual reaction force and actual displacement data set is used for the simulation. 
+Let us consider a case with "no noise" (without noise) conditions such that the actual reaction force and actual displacement data set is used for the simulation. 
 
 **Step 3: Estimate the material model using the data**
 
