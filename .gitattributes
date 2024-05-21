@@ -1,2 +1,2 @@
-*.m linguist-detectable=t=false
 *.py linguist-detectable=true
+*.m linguist-detectable=t=false
