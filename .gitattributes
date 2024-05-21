@@ -1,2 +1,2 @@
-*.m linguistic-detectable=True
-*.py linguistic-detectable=True
+*.m linguist-detectable=True
+*.py linguist-detectable=True
